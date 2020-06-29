@@ -1,0 +1,27 @@
+{
+  "name": "electron-radio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "9.0.5",
+    "electron-builder": "^22.7.0"
+  },
+  "dependencies": {
+    "socket.io-client": "^2.3.0"
+  },
+  "build": {
+    "appId": "electron-radio",
+    "win": {
+      "target": "nsis",
+      "icon": "build/icons/icon.png"
+    }
+  }
+}
